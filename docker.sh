@@ -19,5 +19,5 @@ echo "Docker-compose is installed successfully"
 sleep 2
 echo "Adding ubuntu user to docker group"
 sudo usermod -aG docker ubuntu
-sudo newgrp docker
+newgrp docker
 echo "ubuntu added to docker group successfully"
